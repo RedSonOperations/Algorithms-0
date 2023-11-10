@@ -1,0 +1,8 @@
+Additional Test Cases provided by Alec Kain:
++*+AB+EF+GH
+*+AB--CDEFGH
+/+AB/CD
+/3+6^AB/CD
+/%+AB$CD
+-+*AB/CD-+EF/GH
++*AB /CD-+EF/GH

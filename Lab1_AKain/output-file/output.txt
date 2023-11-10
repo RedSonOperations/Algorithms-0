@@ -1,0 +1,19 @@
+Input: -+ABC	Output: AB+C-
+Input: -A+BC	Output: ABC+-
+Input: $+-ABC+D-EF	Output: AB-C+DEF-+$
+Input: -*A$B+C-DE*EF	Output: ABCDE-+$*EF*-
+Input: **A+BC+C-BA	Output: ABC+*CBA-+*
+Error! Invalid prefix expression (contains spaces): /A+BC +C*BA
+Error! Invalid prefix expression (stack has less than two elements before popping): *-*-ABC+BA
+Error! Invalid prefix expression (stack has less than two elements before popping): /+/A-BC-BA
+Input: *$A+BC+C-BA	Output: ABC+$CBA-+*
+Error! Invalid prefix expression (contains a digit, not a proper character operand): //A+B0-C+BA
+Input: *$A^BC+C-BA	Output: ABC^$CBA-+*
+Additional Test Cases provided by Alec Kain:
+Input: +*+AB+EF+GH	Output: AB+EF+*GH++
+Error! Invalid prefix expression (final stack size not equal to 1): *+AB--CDEFGH
+Input: /+AB/CD	Output: AB+CD//
+Error! Invalid prefix expression (contains a digit, not a proper character operand): /3+6^AB/CD
+Error! Invalid prefix expression (stack has less than two elements before popping): /%+AB$CD
+Input: -+*AB/CD-+EF/GH	Output: AB*CD/+EF+GH/--
+Error! Invalid prefix expression (contains spaces): +*AB /CD-+EF/GH
