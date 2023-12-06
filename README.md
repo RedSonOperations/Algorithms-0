@@ -1,4 +1,4 @@
-# Java-Projects
+# Algorithms-In-Java
 Lab1_AKain - Prefix to Postfix Expression Conversion Algorithm, leverages custom stack class implementation and file I/O stream. O(N) time complexity
 
 AKain_Project_1 - Tic Tac Toe Project written in Java
