@@ -1,0 +1,17 @@
+QuickSort (First Pivot) Comparisons: 336429
+QuickSort (First Pivot) Swaps: 968
+
+QuickSort (Insertion 100) Comparisons: 336970
+QuickSort (Insertion 100) Swaps: 774
+
+QuickSort (Insertion 50) Comparisons: 336482
+QuickSort (Insertion 50) Swaps: 818
+
+QuickSort (Median-of-Three) Comparisons: 166772
+QuickSort (Median-of-Three) Swaps: 1487
+
+Natural MergeSort Comparisons: 5146
+Natural MergeSort Swaps: 4721
+
+
+
