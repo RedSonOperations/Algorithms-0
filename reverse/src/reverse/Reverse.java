@@ -1,5 +1,5 @@
 package reverse;
-
+//own, original O(N) implementation
 public class Reverse {
 
 	public static void main(String[] args) {
