@@ -1,0 +1,132 @@
+Frequency table: 
+Letter: A, Frequency: 19
+Letter: B, Frequency: 16
+Letter: C, Frequency: 17
+Letter: D, Frequency: 11
+Letter: E, Frequency: 42
+Letter: F, Frequency: 12
+Letter: G, Frequency: 14
+Letter: H, Frequency: 17
+Letter: I, Frequency: 16
+Letter: J, Frequency: 5
+Letter: K, Frequency: 10
+Letter: L, Frequency: 20
+Letter: M, Frequency: 19
+Letter: N, Frequency: 24
+Letter: O, Frequency: 18
+Letter: P, Frequency: 13
+Letter: Q, Frequency: 1
+Letter: R, Frequency: 25
+Letter: S, Frequency: 35
+Letter: T, Frequency: 25
+Letter: U, Frequency: 15
+Letter: V, Frequency: 5
+Letter: W, Frequency: 21
+Letter: X, Frequency: 2
+Letter: Y, Frequency: 8
+Letter: Z, Frequency: 3
+
+The tree in preorder is: 
+[null, 413]
+[null, 169]
+[null, 80]
+[null, 39]
+[M, 19]
+[L, 20]
+[null, 41]
+[null, 20]
+[K, 10]
+[null, 10]
+[J, 5]
+[V, 5]
+[W, 21]
+[null, 89]
+[E, 42]
+[null, 47]
+[null, 23]
+[D, 11]
+[F, 12]
+[N, 24]
+[null, 244]
+[null, 106]
+[null, 50]
+[T, 25]
+[R, 25]
+[null, 56]
+[null, 27]
+[P, 13]
+[null, 14]
+[null, 6]
+[Z, 3]
+[null, 3]
+[Q, 1]
+[X, 2]
+[Y, 8]
+[null, 29]
+[G, 14]
+[U, 15]
+[null, 138]
+[null, 66]
+[null, 32]
+[I, 16]
+[B, 16]
+[null, 34]
+[C, 17]
+[H, 17]
+[null, 72]
+[S, 35]
+[null, 37]
+[O, 18]
+[A, 19]
+
+The code is: 
+M = 0000
+L = 0001
+K = 00100
+J = 001010
+V = 001011
+W = 0011
+E = 010
+D = 01100
+F = 01101
+N = 0111
+T = 1000
+R = 1001
+P = 10100
+Z = 1010100
+Q = 10101010
+X = 10101011
+Y = 101011
+G = 10110
+U = 10111
+I = 11000
+B = 11001
+C = 11010
+H = 11011
+S = 1110
+O = 11110
+A = 11111
+
+Encoded Text:
+1110
+10100101001010010100
+11011010
+11000
+
+Decoded Text:
+EBEBOH
+GLERUFTGEGVTH
+AITACADAITAMETLBN
+
+Encoded Text (additional):
+010
+1000
+10111
+1111111010
+
+Decoded Text (additional):
+PASSISONETWO
+FOXES
+REED
+AARDVARK
+
